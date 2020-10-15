@@ -1,4 +1,4 @@
-# lm-logs-sdk-nodejs (beta)
+# [unofficial] lm-logs-sdk-nodejs (beta)
 NodeJS SDK for sending logs to LogicMonitor
 
 `npm install lm-logs-sdk-node` - if published to npm
