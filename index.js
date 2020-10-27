@@ -14,7 +14,7 @@ const validateEnvironmentVariables = source => {
         ...(source === "logger") ? loggerRequiredKeys : []
     ];
     // Filter environment variables to check if all required keys are present
-    const unsetKeys = requiredKeys.filter(key => !(typeof process.env[key] !== "undefined"));
+    const unsetKeys = requiredKeys.filter(key => ((typeof process.env[key] === "undefined") || process.env[key]));
     // Throw an error if there are any unset required keys
     if (unsetKeys.length > 0) throw new Error(`Required environment variables are not set: [${unsetKeys.join(", ")}]`);
 }
