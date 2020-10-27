@@ -1,6 +1,14 @@
 # [unofficial] lm-logs-sdk-nodejs (beta)
 NodeJS SDK for sending logs to LogicMonitor
 
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=dewhurstwill_lm-logs-sdk-nodejs&metric=ncloc)](https://sonarcloud.io/dashboard?id=dewhurstwill_lm-logs-sdk-nodejs)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=dewhurstwill_lm-logs-sdk-nodejs&metric=bugs)](https://sonarcloud.io/dashboard?id=dewhurstwill_lm-logs-sdk-nodejs)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=dewhurstwill_lm-logs-sdk-nodejs&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=dewhurstwill_lm-logs-sdk-nodejs)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=dewhurstwill_lm-logs-sdk-nodejs&metric=reliability_rating)](https://sonarcloud.io/dashboard?id=dewhurstwill_lm-logs-sdk-nodejs)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=dewhurstwill_lm-logs-sdk-nodejs&metric=security_rating)](https://sonarcloud.io/dashboard?id=dewhurstwill_lm-logs-sdk-nodejs)
+[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=dewhurstwill_lm-logs-sdk-nodejs&metric=sqale_index)](https://sonarcloud.io/dashboard?id=dewhurstwill_lm-logs-sdk-nodejs)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=dewhurstwill_lm-logs-sdk-nodejs&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=dewhurstwill_lm-logs-sdk-nodejs)
+
 `npm install lm-logs-sdk-node` - if/when published to npm
 
 ## Ingest:
