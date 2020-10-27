@@ -99,4 +99,4 @@ const ingest = logs => {
 };
 
 exports.logger = logger;
-exports.ingest - ingest;
+exports.ingest = ingest;
