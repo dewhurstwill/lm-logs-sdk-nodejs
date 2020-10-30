@@ -28,7 +28,7 @@ const { ingest } = require("lm-logs-sdk-node");
 logs = [{
     "message": "Hello! from Logic Monitor",
     "_lm.resourceId": {
-        "<lm_property>" => "<lm_property_value>"
+        "<lm_property>": "<lm_property_value>"
     }
 }]
 
