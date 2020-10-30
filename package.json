@@ -1,14 +1,20 @@
 {
   "name": "lm-logs-sdk-nodejs",
-  "version": "1.0.1",
-  "description": "",
+  "version": "1.0.2",
+  "description": "NodeJS SDK for sending logs to LogicMonitor",
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/dewhurstwill/lm-logs-sdk-nodejs.git"
   },
+  "scripts": {
+    "lint": "eslint --fix ./"
+  },
   "license": "MIT",
   "author": "Will Dewhurst (will@wdew.uk)",
-  "license": "MIT",
-  "devDependencies": {}
+  "devDependencies": {
+    "eslint": "^7.7.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0"
+  }
 }
