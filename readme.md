@@ -9,7 +9,11 @@ NodeJS SDK for sending logs to LogicMonitor
 [![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=dewhurstwill_lm-logs-sdk-nodejs&metric=sqale_index)](https://sonarcloud.io/dashboard?id=dewhurstwill_lm-logs-sdk-nodejs)
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=dewhurstwill_lm-logs-sdk-nodejs&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=dewhurstwill_lm-logs-sdk-nodejs)
 
-`npm install lm-logs-sdk-node` - if/when published to npm
+## Install 📦
+
+```bash
+npm install lm-logs-sdk-node
+````
 
 ## Ingest:
 
@@ -24,7 +28,7 @@ const { ingest } = require("lm-logs-sdk-node");
 logs = [{
     "message": "Hello! from Logic Monitor",
     "_lm.resourceId": {
-        "<lm_property>" => "<lm_property_value>"
+        "<lm_property>": "<lm_property_value>"
     }
 }]
 
